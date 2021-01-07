@@ -63,8 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CHARACTER_ENEMI\myZombie\script\Arms\firtsperson.cs" />
-    <Compile Include="Assets\CHARACTER_ENEMI\myZombie\script\move.cs" />
+    <Compile Include="Assets\Enemigo\myZombie\script\Arms\firtsperson.cs" />
+    <Compile Include="Assets\Enemigo\myZombie\script\move.cs" />
     <Compile Include="Assets\UI\UIScript\SliderMusic.cs" />
     <Compile Include="Assets\UI\UIScript\manager.cs" />
     <Reference Include="UnityEngine">

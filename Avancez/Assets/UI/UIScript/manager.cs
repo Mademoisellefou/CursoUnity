@@ -59,7 +59,7 @@ public class manager : MonoBehaviour
         {
             StartMenu.GetComponent<CanvasGroup>().alpha -= Time.deltaTime * fadespeed;
         }
-        else if (!gameOver&&StartMenu.GetComponent<CanvasGroup>().alpha <= 0)
+        else if (!victory&&!gameOver&&StartMenu.GetComponent<CanvasGroup>().alpha <= 0)
         {
             //remove start panel when alpha is 0
             fading = false;
